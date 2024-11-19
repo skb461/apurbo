@@ -39,8 +39,8 @@
         $ck_id = $_POST['s_exampleInputEmail1'];
         $ck_pass = $_POST['s_exampleInputPassword1'];
 
-        if ("apurboEmail@test.com" == $ck_id && "apurboPassword" == $ck_pass) {
-            header('location: home.php');
+        if ("ashik@test.com" === $ck_id && "1234" === $ck_pass) {
+            header('location: home_admin.php');
             exit();
         }
         
